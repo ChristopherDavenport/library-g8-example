@@ -1,0 +1,11 @@
+name: library-g8-example
+baseurl: /library-g8-example
+description: A basic project
+highlighter: rouge
+docs: true
+collections:
+  tut:
+    output: true
+version: 0.0.1-SNAPSHOT
+org: io.chrisdavenport
+markdown: kramdown
