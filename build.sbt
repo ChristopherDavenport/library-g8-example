@@ -39,8 +39,6 @@ val fuuidV = "0.2.0-M3"
 val lineBackerV = "0.2.0"
 
 val specs2V = "4.3.5"
-val disciplineV = "0.10.0"
-val scShapelessV = "1.2.0"
 
 val kindProjectorV = "0.9.9"
 val betterMonadicForV = "0.3.0-M4"
@@ -108,9 +106,7 @@ lazy val commonSettings = Seq(
     "eu.timepit"                  %% "refined-scalacheck"         % refinedV      % Test,
 
     "org.specs2"                  %% "specs2-core"                % specs2V       % Test,
-    "org.specs2"                  %% "specs2-scalacheck"          % specs2V       % Test,
-    "org.typelevel"               %% "discipline"                 % disciplineV   % Test,
-    "com.github.alexarchambault"  %% "scalacheck-shapeless_1.14"  % scShapelessV  % Test
+    "org.specs2"                  %% "specs2-scalacheck"          % specs2V       % Test
   )
 )
 
